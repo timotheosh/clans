@@ -15,3 +15,11 @@
 *.sx32fsl
 *.wx64fsl
 *.wx32fsl
+# Project files
+target/
+# Emacs
+\#*
+.\#*
+*~
+# Vi(m)
+*.swp
