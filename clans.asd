@@ -2,11 +2,13 @@
   :version "0.1.0"
   :author "Tim Hawes"
   :license "MIT"
-  :depends-on (#:trivial-ssh)
+  :depends-on (#:trivial-ssh
+               #:cl-ppcre
+               #:modf)
   :components ((:module "src"
                 :components
                 ((:file "package")
-		 (:file "main"))))
+                 (:file "main"))))
   :description ""
   :in-order-to ((test-op (test-op "clans/tests")))
   :build-operation "asdf:program-op"
